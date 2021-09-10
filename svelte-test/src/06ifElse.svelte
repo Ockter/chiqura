@@ -1,11 +1,6 @@
 <script>
-	let name = 'world';
-	let toggle = false;
-	if (toggle){
-			
-	}else{
-
-	}
+let name = 'world'
+	let toggle = false
 	// 	시작    구문  #
 	//  끝나는  구문  /
 	// 내용추가 구문  :
@@ -15,7 +10,6 @@
 <button on:click={()=>{toggle  = !toggle}}>
 	Toggle
 </button>
-
 <!-- {#if} : 시작 /	{/if} : 엔드 -->
 {#if toggle}
 <h1>Hello {name}!</h1>
